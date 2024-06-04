@@ -1,5 +1,10 @@
 #Build Step
-build:
-  scripts:
-    - echo "First step"
-    - echo "Second step"
+build-job:
+  stage: build
+  script:
+    - echo "Hello My first pipeline!"
+
+test-job1:
+  stage: test
+  script:
+    - echo "This job tests something"
