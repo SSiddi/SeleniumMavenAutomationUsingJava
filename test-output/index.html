@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Failed_suite__Default_suite_" class="navigator-link">
+              <span class="suite-name border-failed">Failed suite [Default suite]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Failed_suite__Default_suite_" class="navigator-link ">
+                    <span>D:\Shabnam Project\SeleniumMavenAutomationUsingJava\test-output\testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Failed_suite__Default_suite_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Failed_suite__Default_suite_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Failed_suite__Default_suite_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Failed_suite__Default_suite_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Failed_suite__Default_suite_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Failed_suite__Default_suite_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 6 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Failed_suite__Default_suite_" class="hide-methods failed suite-Failed_suite__Default_suite_"> (hide)</a> <!-- hide-methods failed suite-Failed_suite__Default_suite_ -->
+                      <a href="#" panel-name="suite-Failed_suite__Default_suite_" class="show-methods failed suite-Failed_suite__Default_suite_"> (show)</a> <!-- show-methods failed suite-Failed_suite__Default_suite_ -->
+                    </span>
+                    <div class="method-list-content failed suite-Failed_suite__Default_suite_">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Default_suite_" title="myTests.ReadExcelDataProvider" class="method navigator-link" hash-for-method="loginIntoLinkedIn(Username2, Password2)">loginIntoLinkedIn(Username2, Password2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Default_suite_" title="myTests.ReadExcelDataProvider" class="method navigator-link" hash-for-method="loginIntoLinkedIn(null, null)">loginIntoLinkedIn(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Default_suite_" title="myTests.ReadExcelDataProvider" class="method navigator-link" hash-for-method="loginIntoLinkedIn(Username4, Password4)">loginIntoLinkedIn(Username4, Password4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Default_suite_" title="myTests.ReadExcelDataProvider" class="method navigator-link" hash-for-method="loginIntoLinkedIn(Username5, Password5)">loginIntoLinkedIn(Username5, Password5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Default_suite_" title="myTests.ReadExcelDataProvider" class="method navigator-link" hash-for-method="loginIntoLinkedIn(Username3, Password3)">loginIntoLinkedIn(Username3, Password3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Default_suite_" title="myTests.ReadExcelDataProvider" class="method navigator-link" hash-for-method="loginIntoLinkedIn(Username1, Password1)">loginIntoLinkedIn(Username1, Password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Failed_suite__Default_suite_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite__Default_suite_" class="panel Failed_suite__Default_suite_">
+          <div class="suite-Failed_suite__Default_suite_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">myTests.ReadExcelDataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginIntoLinkedIn(Username2, Password2)">
+                  </a> <!-- loginIntoLinkedIn(Username2, Password2) -->
+                  <span class="method-name">loginIntoLinkedIn</span>
+                  <span class="parameters">(Username2,Password2)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at myTests.ReadExcelDataProvider.loginIntoLinkedIn(ReadExcelDataProvider.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginIntoLinkedIn(null, null)">
+                  </a> <!-- loginIntoLinkedIn(null, null) -->
+                  <span class="method-name">loginIntoLinkedIn</span>
+                  <span class="parameters">(null,null)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at myTests.ReadExcelDataProvider.loginIntoLinkedIn(ReadExcelDataProvider.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginIntoLinkedIn(Username4, Password4)">
+                  </a> <!-- loginIntoLinkedIn(Username4, Password4) -->
+                  <span class="method-name">loginIntoLinkedIn</span>
+                  <span class="parameters">(Username4,Password4)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at myTests.ReadExcelDataProvider.loginIntoLinkedIn(ReadExcelDataProvider.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginIntoLinkedIn(Username5, Password5)">
+                  </a> <!-- loginIntoLinkedIn(Username5, Password5) -->
+                  <span class="method-name">loginIntoLinkedIn</span>
+                  <span class="parameters">(Username5,Password5)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at myTests.ReadExcelDataProvider.loginIntoLinkedIn(ReadExcelDataProvider.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginIntoLinkedIn(Username3, Password3)">
+                  </a> <!-- loginIntoLinkedIn(Username3, Password3) -->
+                  <span class="method-name">loginIntoLinkedIn</span>
+                  <span class="parameters">(Username3,Password3)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at myTests.ReadExcelDataProvider.loginIntoLinkedIn(ReadExcelDataProvider.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginIntoLinkedIn(Username1, Password1)">
+                  </a> <!-- loginIntoLinkedIn(Username1, Password1) -->
+                  <span class="method-name">loginIntoLinkedIn</span>
+                  <span class="parameters">(Username1,Password1)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at myTests.ReadExcelDataProvider.loginIntoLinkedIn(ReadExcelDataProvider.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Default_suite_-class-failed -->
+        </div> <!-- panel Failed_suite__Default_suite_ -->
+        <div panel-name="test-xml-Failed_suite__Default_suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Shabnam Project\SeleniumMavenAutomationUsingJava\test-output\testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Failed suite [Default suite]&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myTests.ReadExcelDataProvider&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginIntoLinkedIn&quot; invocation-numbers=&quot;0 1 2 3 4 5&quot;/&gt;
+          &lt;include name=&quot;testSetup&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- myTests.ReadExcelDataProvider --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Default suite] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite__Default_suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Default suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite__Default_suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Default suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite__Default_suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Default suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite__Default_suite_');
+function tableData_Failed_suite__Default_suite_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginIntoLinkedIn')
+data.setCell(0, 2, 'myTests.ReadExcelDataProvider')
+data.setCell(0, 3, 1815);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginIntoLinkedIn')
+data.setCell(1, 2, 'myTests.ReadExcelDataProvider')
+data.setCell(1, 3, 883);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginIntoLinkedIn')
+data.setCell(2, 2, 'myTests.ReadExcelDataProvider')
+data.setCell(2, 3, 821);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginIntoLinkedIn')
+data.setCell(3, 2, 'myTests.ReadExcelDataProvider')
+data.setCell(3, 3, 791);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginIntoLinkedIn')
+data.setCell(4, 2, 'myTests.ReadExcelDataProvider')
+data.setCell(4, 3, 695);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginIntoLinkedIn')
+data.setCell(5, 2, 'myTests.ReadExcelDataProvider')
+data.setCell(5, 3, 600);
+window.suiteTableData['Failed_suite__Default_suite_']= { tableData: data, tableDiv: 'times-div-Failed_suite__Default_suite_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Failed_suite__Default_suite_">
+              </div> <!-- times-div-Failed_suite__Default_suite_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite__Default_suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Default suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite__Default_suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">myTests.ReadExcelDataProvider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite__Default_suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">myTests.ReadExcelDataProvider</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginIntoLinkedIn(Username1, Password1)</span>
+                <span class="method-start">6170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginIntoLinkedIn(Username2, Password2)</span>
+                <span class="method-start">7990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginIntoLinkedIn(Username3, Password3)</span>
+                <span class="method-start">8873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginIntoLinkedIn(Username4, Password4)</span>
+                <span class="method-start">9694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginIntoLinkedIn(Username5, Password5)</span>
+                <span class="method-start">10485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginIntoLinkedIn(null, null)</span>
+                <span class="method-start">11101 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

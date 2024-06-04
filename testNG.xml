@@ -1,0 +1,8 @@
+<suite name="softwaretestingmaterial">
+	<test name="testngTest">
+		<classes>
+			<class name="myTests.ContextClickTests"/>
+			<class name="myTests.ListOfTestCases"/>
+		</classes>
+	</test>
+</suite>

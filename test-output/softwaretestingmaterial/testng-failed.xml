@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="myTests.ContextClickTests">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="addTestResultsToTestRail"/>
+          <include name="doubleClickTest"/>
+        </methods>
+      </class> <!-- myTests.ContextClickTests -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

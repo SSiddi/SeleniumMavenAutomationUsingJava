@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testing Google Apps">
+<parameter name="borwserName" value ="Chrome"/>
+	<test name="Regression" parallel="class">
+		<classes>
+			<class name="myTests.ContextClickTests"/>
+			<class name="myTests.TestNgAnnoTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
